@@ -99,8 +99,7 @@ def form_leave():
     return binary_msg
 
 
-if __name__ == '__main__':
-
+def get_params():
     parser = argparse.ArgumentParser(description='start script args')
     parser.add_argument(
         '-addr',
@@ -115,7 +114,16 @@ if __name__ == '__main__':
         help='port number, default 7777'
     )
 
-    args = parser.parse_args()
+    return parser.parse_args()
+
+
+def set_connect():
+    pass
+
+
+if __name__ == '__main__':
+
+    args = get_params()
 
     client = socket(AF_INET, SOCK_STREAM)
     client.connect((args.addr, args.p))
