@@ -64,8 +64,8 @@ def form_authenticate():
         "action": "authenticate",
         "time": time.time(),
         "user": {
-                "account_name": "C0deMaver1ck",
-                "password": "CorrectHorseBatterStaple"
+                "account_name": "acc",
+                "password": "pass"
             }
 
     }
@@ -124,10 +124,10 @@ def set_connect():
 if __name__ == '__main__':
 
     args = get_params()
+    print(get_params().addr)
 
     client = socket(AF_INET, SOCK_STREAM)
     client.connect((args.addr, args.p))
-
     client.send(form_precense())
 
     tm = client.recv(1024)
@@ -135,4 +135,4 @@ if __name__ == '__main__':
     tm_str = tm.decode('utf-8')
     tm_json = json.loads(tm_str)
 
-    print("Ответ сервера: %s" % tm_json["response"])
+    print(f'Ответ сервера: {tm_json["response"]}')

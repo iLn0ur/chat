@@ -13,7 +13,7 @@ def client_msg_receive(binary_msg):
 def server_resp():
     server_json = {
         "response": 200,
-        "alert": "Необязательное сообщение/уведомление"
+        "alert": "notification"
     }
 
     server_str = json.dumps(server_json)
