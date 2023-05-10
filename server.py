@@ -32,18 +32,25 @@ def server_resp():
     return server_binary
 
 
-def main(addr, p):
+def listen_sock(a, p):
+    s = socket(AF_INET, SOCK_STREAM)
+    s.bind((a, p))
+    s.listen(5)
+    s.settimeout(1)
+    return s
+
+
+def main(a, p):
 
     if not 1023 < p < 65536:
         logger.critical(f'Попытка запуска сервера с указанием неподходящего порта {p}')
         sys.exit()
 
     logger.info(f'Запущен сервер, порт для подключений: {p}, '
-                f'адрес с которого принимаются подключения: {addr}. '
+                f'адрес с которого принимаются подключения: {a}. '
                 f'Если адрес не указан, принимаются соединения с любых адресов.')
-    s = socket(AF_INET, SOCK_STREAM)
-    s.bind((addr, p))
-    s.listen(5)
+
+    s = listen_sock(a, p)
 
     while True:
         client, addr = s.accept()
