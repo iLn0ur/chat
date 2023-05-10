@@ -4,10 +4,13 @@ import json
 import argparse
 import logging
 import log.client_config_log
+from decorators import log
 
 
 logger = logging.getLogger('client_log')
 
+
+@log
 def form_precense():
     message = {
         "action": "presense",
@@ -103,6 +106,7 @@ def form_leave():
     return binary_msg
 
 
+@log
 def get_params():
     parser = argparse.ArgumentParser(description='start script args')
     parser.add_argument(
@@ -121,6 +125,7 @@ def get_params():
     return parser.parse_args()
 
 
+@log
 def set_connect(addr, p):
     client_connect = socket(AF_INET, SOCK_STREAM)
     client_connect.connect((addr, p))

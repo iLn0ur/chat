@@ -5,10 +5,13 @@ from socket import socket, AF_INET, SOCK_STREAM
 # import time
 from client import get_params
 import log.server_config_log
+from decorators import log, Log
+
 
 logger = logging.getLogger('server_log')
 
 
+@Log()
 def client_msg_receive(binary_msg):
     client_msg = binary_msg.decode('ascii')
     json_msg = json.loads(client_msg)
@@ -16,6 +19,7 @@ def client_msg_receive(binary_msg):
     return json_msg
 
 
+@Log()
 def server_resp():
     server_json = {
         "response": 200,
