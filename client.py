@@ -2,7 +2,11 @@ from socket import socket, AF_INET, SOCK_STREAM
 import time
 import json
 import argparse
+import logging
+import log.client_config_log
 
+
+logger = logging.getLogger('client_log')
 
 def form_precense():
     message = {
@@ -16,7 +20,7 @@ def form_precense():
     }
     json_msg = json.dumps(message)
     binary_msg = json_msg.encode('ascii')
-
+    logger.info('сформировано сообщение')
     return binary_msg
 
 
@@ -117,17 +121,18 @@ def get_params():
     return parser.parse_args()
 
 
-def set_connect():
-    pass
+def set_connect(addr, p):
+    client_connect = socket(AF_INET, SOCK_STREAM)
+    client_connect.connect((addr, p))
+    return client_connect
 
 
 if __name__ == '__main__':
 
     args = get_params()
-    print(get_params().addr)
 
-    client = socket(AF_INET, SOCK_STREAM)
-    client.connect((args.addr, args.p))
+    client = set_connect(args.addr, args.p)
+
     client.send(form_precense())
 
     tm = client.recv(1024)
@@ -135,4 +140,4 @@ if __name__ == '__main__':
     tm_str = tm.decode('utf-8')
     tm_json = json.loads(tm_str)
 
-    print(f'Ответ сервера: {tm_json["response"]}')
+    logger.info(f'Ответ сервера: {tm_json["response"]}')
