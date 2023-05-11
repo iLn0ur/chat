@@ -1,14 +1,314 @@
-2023-05-08 17:21:47,321 - DEBUG - Была вызвана функция get_params из функции get_params(). 
-2023-05-08 17:21:47,321 - INFO - Запущен сервер, порт для подключений: 8888, адрес с которого принимаются подключения: 192.168.1.110. Если адрес не указан, принимаются соединения с любых адресов. 
-2023-05-08 17:21:56,248 - INFO - Получен запрос на соединение от ('192.168.1.110', 46594) 
-2023-05-08 17:21:56,248 - DEBUG - получено сообщение от клиента 
-2023-05-08 17:21:56,248 - DEBUG - Была вызвана функция client_msg_receive из функции args.p). 
-2023-05-08 17:21:56,248 - INFO - presense 
-2023-05-08 17:21:56,248 - DEBUG - отправлено сообщение клиенту 
-2023-05-08 17:21:56,248 - DEBUG - Была вызвана функция server_resp из функции args.p). 
-2023-05-08 17:22:14,300 - INFO - Получен запрос на соединение от ('192.168.1.110', 40446) 
-2023-05-08 17:22:14,301 - DEBUG - получено сообщение от клиента 
-2023-05-08 17:22:14,301 - DEBUG - Была вызвана функция client_msg_receive из функции args.p). 
-2023-05-08 17:22:14,301 - INFO - presense 
-2023-05-08 17:22:14,301 - DEBUG - отправлено сообщение клиенту 
-2023-05-08 17:22:14,301 - DEBUG - Была вызвана функция server_resp из функции args.p). 
+2023-05-11 17:27:29,156 - DEBUG - Была вызвана функция get_params из функции get_params(). 
+2023-05-11 17:27:29,156 - INFO - Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: localhost. Если адрес не указан, принимаются соединения с любых адресов. 
+2023-05-11 17:27:32,371 - DEBUG - Была вызвана функция get_params из функции get_params(). 
+2023-05-11 17:27:32,372 - INFO - Запущен сервер, порт для подключений: 8001, адрес с которого принимаются подключения: localhost. Если адрес не указан, принимаются соединения с любых адресов. 
+2023-05-11 17:27:32,472 - DEBUG - timed out 
+2023-05-11 17:27:32,572 - DEBUG - timed out 
+2023-05-11 17:27:32,673 - DEBUG - timed out 
+2023-05-11 17:27:32,773 - DEBUG - timed out 
+2023-05-11 17:27:32,873 - DEBUG - timed out 
+2023-05-11 17:27:32,974 - DEBUG - timed out 
+2023-05-11 17:27:33,074 - DEBUG - timed out 
+2023-05-11 17:27:33,174 - DEBUG - timed out 
+2023-05-11 17:27:33,275 - DEBUG - timed out 
+2023-05-11 17:27:33,375 - DEBUG - timed out 
+2023-05-11 17:27:33,476 - DEBUG - timed out 
+2023-05-11 17:27:33,576 - DEBUG - timed out 
+2023-05-11 17:27:33,676 - DEBUG - timed out 
+2023-05-11 17:27:33,777 - DEBUG - timed out 
+2023-05-11 17:27:33,877 - DEBUG - timed out 
+2023-05-11 17:27:33,977 - DEBUG - timed out 
+2023-05-11 17:27:34,078 - DEBUG - timed out 
+2023-05-11 17:27:34,178 - DEBUG - timed out 
+2023-05-11 17:27:34,279 - DEBUG - timed out 
+2023-05-11 17:27:34,379 - DEBUG - timed out 
+2023-05-11 17:27:34,479 - DEBUG - timed out 
+2023-05-11 17:27:34,580 - DEBUG - timed out 
+2023-05-11 17:27:34,680 - DEBUG - timed out 
+2023-05-11 17:27:34,781 - DEBUG - timed out 
+2023-05-11 17:27:34,881 - DEBUG - timed out 
+2023-05-11 17:27:34,981 - DEBUG - timed out 
+2023-05-11 17:27:35,082 - DEBUG - timed out 
+2023-05-11 17:27:35,182 - DEBUG - timed out 
+2023-05-11 17:27:35,283 - DEBUG - timed out 
+2023-05-11 17:27:35,383 - DEBUG - timed out 
+2023-05-11 17:27:35,484 - DEBUG - timed out 
+2023-05-11 17:27:35,584 - DEBUG - timed out 
+2023-05-11 17:27:35,684 - DEBUG - timed out 
+2023-05-11 17:27:35,785 - DEBUG - timed out 
+2023-05-11 17:27:35,885 - DEBUG - timed out 
+2023-05-11 17:27:35,986 - DEBUG - timed out 
+2023-05-11 17:27:36,086 - DEBUG - timed out 
+2023-05-11 17:27:36,186 - DEBUG - timed out 
+2023-05-11 17:27:36,287 - DEBUG - timed out 
+2023-05-11 17:27:36,387 - DEBUG - timed out 
+2023-05-11 17:27:36,488 - DEBUG - timed out 
+2023-05-11 17:27:36,588 - DEBUG - timed out 
+2023-05-11 17:27:36,688 - DEBUG - timed out 
+2023-05-11 17:27:36,789 - DEBUG - timed out 
+2023-05-11 17:27:36,889 - DEBUG - timed out 
+2023-05-11 17:27:36,989 - DEBUG - timed out 
+2023-05-11 17:27:37,090 - DEBUG - timed out 
+2023-05-11 17:27:37,154 - INFO - Получен запрос на соединение от ('127.0.0.1', 33792) 
+2023-05-11 17:27:37,254 - DEBUG - timed out 
+2023-05-11 17:27:37,355 - DEBUG - timed out 
+2023-05-11 17:27:37,455 - DEBUG - timed out 
+2023-05-11 17:27:37,556 - DEBUG - timed out 
+2023-05-11 17:27:37,656 - DEBUG - timed out 
+2023-05-11 17:27:37,756 - DEBUG - timed out 
+2023-05-11 17:27:37,857 - DEBUG - timed out 
+2023-05-11 17:27:37,957 - DEBUG - timed out 
+2023-05-11 17:27:38,057 - DEBUG - timed out 
+2023-05-11 17:27:38,158 - DEBUG - timed out 
+2023-05-11 17:27:38,258 - DEBUG - timed out 
+2023-05-11 17:27:38,359 - DEBUG - timed out 
+2023-05-11 17:27:38,459 - DEBUG - timed out 
+2023-05-11 17:27:38,559 - DEBUG - timed out 
+2023-05-11 17:27:38,660 - DEBUG - timed out 
+2023-05-11 17:27:38,760 - DEBUG - timed out 
+2023-05-11 17:27:38,861 - DEBUG - timed out 
+2023-05-11 17:27:38,961 - DEBUG - timed out 
+2023-05-11 17:27:39,062 - DEBUG - timed out 
+2023-05-11 17:27:39,162 - DEBUG - timed out 
+2023-05-11 17:27:39,262 - DEBUG - timed out 
+2023-05-11 17:27:39,363 - DEBUG - timed out 
+2023-05-11 17:27:39,463 - DEBUG - timed out 
+2023-05-11 17:27:39,464 - DEBUG - получено сообщение от клиента sadfawe 
+2023-05-11 17:27:39,464 - DEBUG - Была вызвана функция client_msg_receive из функции args.p). 
+2023-05-11 17:27:39,464 - INFO - принято сообщение: sadfawe 
+2023-05-11 17:27:39,564 - DEBUG - timed out 
+2023-05-11 17:27:39,665 - DEBUG - timed out 
+2023-05-11 17:27:39,765 - DEBUG - timed out 
+2023-05-11 17:27:39,866 - DEBUG - timed out 
+2023-05-11 17:27:39,966 - DEBUG - timed out 
+2023-05-11 17:27:40,066 - DEBUG - timed out 
+2023-05-11 17:27:40,167 - DEBUG - timed out 
+2023-05-11 17:27:40,267 - DEBUG - timed out 
+2023-05-11 17:27:40,367 - DEBUG - timed out 
+2023-05-11 17:27:40,468 - DEBUG - timed out 
+2023-05-11 17:27:40,568 - DEBUG - timed out 
+2023-05-11 17:27:40,669 - DEBUG - timed out 
+2023-05-11 17:27:40,769 - DEBUG - timed out 
+2023-05-11 17:27:40,869 - DEBUG - timed out 
+2023-05-11 17:27:40,970 - DEBUG - timed out 
+2023-05-11 17:27:41,070 - DEBUG - timed out 
+2023-05-11 17:27:41,171 - DEBUG - timed out 
+2023-05-11 17:27:41,271 - DEBUG - timed out 
+2023-05-11 17:27:41,371 - DEBUG - timed out 
+2023-05-11 17:27:41,472 - DEBUG - timed out 
+2023-05-11 17:27:41,572 - DEBUG - timed out 
+2023-05-11 17:27:41,673 - DEBUG - timed out 
+2023-05-11 17:27:41,773 - DEBUG - timed out 
+2023-05-11 17:27:41,873 - DEBUG - timed out 
+2023-05-11 17:27:41,974 - DEBUG - timed out 
+2023-05-11 17:27:42,074 - DEBUG - timed out 
+2023-05-11 17:27:42,175 - DEBUG - timed out 
+2023-05-11 17:27:42,275 - DEBUG - timed out 
+2023-05-11 17:27:42,376 - DEBUG - timed out 
+2023-05-11 17:27:42,476 - DEBUG - timed out 
+2023-05-11 17:27:42,576 - DEBUG - timed out 
+2023-05-11 17:27:42,677 - DEBUG - timed out 
+2023-05-11 17:27:42,777 - DEBUG - timed out 
+2023-05-11 17:27:42,877 - DEBUG - timed out 
+2023-05-11 17:27:42,978 - DEBUG - timed out 
+2023-05-11 17:27:43,057 - INFO - Получен запрос на соединение от ('127.0.0.1', 57354) 
+2023-05-11 17:27:43,158 - DEBUG - timed out 
+2023-05-11 17:27:43,258 - DEBUG - timed out 
+2023-05-11 17:27:43,359 - DEBUG - timed out 
+2023-05-11 17:27:43,459 - DEBUG - timed out 
+2023-05-11 17:27:43,559 - DEBUG - timed out 
+2023-05-11 17:27:43,660 - DEBUG - timed out 
+2023-05-11 17:27:43,760 - DEBUG - timed out 
+2023-05-11 17:27:43,860 - DEBUG - timed out 
+2023-05-11 17:27:43,961 - DEBUG - timed out 
+2023-05-11 17:27:44,061 - DEBUG - timed out 
+2023-05-11 17:27:44,162 - DEBUG - timed out 
+2023-05-11 17:27:44,262 - DEBUG - timed out 
+2023-05-11 17:27:44,363 - DEBUG - timed out 
+2023-05-11 17:27:44,463 - DEBUG - timed out 
+2023-05-11 17:27:44,563 - DEBUG - timed out 
+2023-05-11 17:27:44,664 - DEBUG - timed out 
+2023-05-11 17:27:44,764 - DEBUG - timed out 
+2023-05-11 17:27:44,864 - DEBUG - timed out 
+2023-05-11 17:27:44,964 - DEBUG - timed out 
+2023-05-11 17:27:45,065 - DEBUG - timed out 
+2023-05-11 17:27:45,165 - DEBUG - timed out 
+2023-05-11 17:27:45,266 - DEBUG - timed out 
+2023-05-11 17:27:45,366 - DEBUG - timed out 
+2023-05-11 17:27:45,466 - DEBUG - timed out 
+2023-05-11 17:27:45,567 - DEBUG - timed out 
+2023-05-11 17:27:45,667 - DEBUG - timed out 
+2023-05-11 17:27:45,768 - DEBUG - timed out 
+2023-05-11 17:27:45,868 - DEBUG - timed out 
+2023-05-11 17:27:45,968 - DEBUG - timed out 
+2023-05-11 17:27:46,069 - DEBUG - timed out 
+2023-05-11 17:27:46,169 - DEBUG - timed out 
+2023-05-11 17:27:46,270 - DEBUG - timed out 
+2023-05-11 17:27:46,370 - DEBUG - timed out 
+2023-05-11 17:27:46,471 - DEBUG - timed out 
+2023-05-11 17:27:46,571 - DEBUG - timed out 
+2023-05-11 17:27:46,671 - DEBUG - timed out 
+2023-05-11 17:27:46,771 - DEBUG - timed out 
+2023-05-11 17:27:46,872 - DEBUG - timed out 
+2023-05-11 17:27:46,872 - DEBUG - получено сообщение от клиента sdfa 
+2023-05-11 17:27:46,872 - DEBUG - Была вызвана функция client_msg_receive из функции args.p). 
+2023-05-11 17:27:46,872 - INFO - принято сообщение: sdfa 
+2023-05-11 17:27:46,973 - DEBUG - timed out 
+2023-05-11 17:27:47,073 - DEBUG - timed out 
+2023-05-11 17:27:47,174 - DEBUG - timed out 
+2023-05-11 17:27:47,274 - DEBUG - timed out 
+2023-05-11 17:27:47,374 - DEBUG - timed out 
+2023-05-11 17:27:47,475 - DEBUG - timed out 
+2023-05-11 17:27:47,575 - DEBUG - timed out 
+2023-05-11 17:27:47,676 - DEBUG - timed out 
+2023-05-11 17:27:47,776 - DEBUG - timed out 
+2023-05-11 17:27:47,876 - DEBUG - timed out 
+2023-05-11 17:27:47,977 - DEBUG - timed out 
+2023-05-11 17:27:48,077 - DEBUG - timed out 
+2023-05-11 17:27:48,177 - DEBUG - timed out 
+2023-05-11 17:27:48,278 - DEBUG - timed out 
+2023-05-11 17:27:48,378 - DEBUG - timed out 
+2023-05-11 17:27:48,479 - DEBUG - timed out 
+2023-05-11 17:27:48,579 - DEBUG - timed out 
+2023-05-11 17:27:48,680 - DEBUG - timed out 
+2023-05-11 17:27:48,780 - DEBUG - timed out 
+2023-05-11 17:27:48,880 - DEBUG - timed out 
+2023-05-11 17:27:48,981 - DEBUG - timed out 
+2023-05-11 17:27:49,081 - DEBUG - timed out 
+2023-05-11 17:27:49,182 - DEBUG - timed out 
+2023-05-11 17:27:49,282 - DEBUG - timed out 
+2023-05-11 17:27:49,382 - DEBUG - timed out 
+2023-05-11 17:27:49,483 - DEBUG - timed out 
+2023-05-11 17:27:49,583 - DEBUG - timed out 
+2023-05-11 17:27:49,684 - DEBUG - timed out 
+2023-05-11 17:27:49,784 - DEBUG - timed out 
+2023-05-11 17:27:49,885 - DEBUG - timed out 
+2023-05-11 17:27:49,985 - DEBUG - timed out 
+2023-05-11 17:27:50,028 - INFO - Получен запрос на соединение от ('127.0.0.1', 57356) 
+2023-05-11 17:27:50,128 - DEBUG - timed out 
+2023-05-11 17:27:50,228 - DEBUG - timed out 
+2023-05-11 17:27:50,329 - DEBUG - timed out 
+2023-05-11 17:27:50,429 - DEBUG - timed out 
+2023-05-11 17:27:50,529 - DEBUG - timed out 
+2023-05-11 17:27:50,630 - DEBUG - timed out 
+2023-05-11 17:27:50,730 - DEBUG - timed out 
+2023-05-11 17:27:50,831 - DEBUG - timed out 
+2023-05-11 17:27:50,931 - DEBUG - timed out 
+2023-05-11 17:27:51,031 - DEBUG - timed out 
+2023-05-11 17:27:51,132 - DEBUG - timed out 
+2023-05-11 17:27:51,232 - DEBUG - timed out 
+2023-05-11 17:27:51,333 - DEBUG - timed out 
+2023-05-11 17:27:51,433 - DEBUG - timed out 
+2023-05-11 17:27:51,533 - DEBUG - timed out 
+2023-05-11 17:27:51,634 - DEBUG - timed out 
+2023-05-11 17:27:51,734 - DEBUG - timed out 
+2023-05-11 17:27:51,835 - DEBUG - timed out 
+2023-05-11 17:27:51,935 - DEBUG - timed out 
+2023-05-11 17:27:52,035 - DEBUG - timed out 
+2023-05-11 17:27:52,136 - DEBUG - timed out 
+2023-05-11 17:27:52,236 - DEBUG - timed out 
+2023-05-11 17:27:52,337 - DEBUG - timed out 
+2023-05-11 17:27:52,437 - DEBUG - timed out 
+2023-05-11 17:27:52,537 - DEBUG - timed out 
+2023-05-11 17:27:52,638 - DEBUG - timed out 
+2023-05-11 17:27:52,738 - DEBUG - timed out 
+2023-05-11 17:27:52,839 - DEBUG - timed out 
+2023-05-11 17:27:52,939 - DEBUG - timed out 
+2023-05-11 17:27:53,039 - DEBUG - timed out 
+2023-05-11 17:27:53,140 - DEBUG - timed out 
+2023-05-11 17:27:53,240 - DEBUG - timed out 
+2023-05-11 17:27:53,341 - DEBUG - timed out 
+2023-05-11 17:27:53,441 - DEBUG - timed out 
+2023-05-11 17:27:53,541 - DEBUG - timed out 
+2023-05-11 17:27:53,642 - DEBUG - timed out 
+2023-05-11 17:27:53,742 - DEBUG - timed out 
+2023-05-11 17:27:53,843 - DEBUG - timed out 
+2023-05-11 17:27:53,943 - DEBUG - timed out 
+2023-05-11 17:27:54,043 - DEBUG - timed out 
+2023-05-11 17:27:54,144 - DEBUG - timed out 
+2023-05-11 17:27:54,244 - DEBUG - timed out 
+2023-05-11 17:27:54,345 - DEBUG - timed out 
+2023-05-11 17:27:54,445 - DEBUG - timed out 
+2023-05-11 17:27:54,545 - DEBUG - timed out 
+2023-05-11 17:27:54,646 - DEBUG - timed out 
+2023-05-11 17:27:54,746 - DEBUG - timed out 
+2023-05-11 17:27:54,847 - DEBUG - timed out 
+2023-05-11 17:27:54,947 - DEBUG - timed out 
+2023-05-11 17:27:55,047 - DEBUG - timed out 
+2023-05-11 17:27:55,148 - DEBUG - timed out 
+2023-05-11 17:27:55,248 - DEBUG - timed out 
+2023-05-11 17:27:55,348 - DEBUG - timed out 
+2023-05-11 17:27:55,449 - DEBUG - timed out 
+2023-05-11 17:27:55,549 - DEBUG - timed out 
+2023-05-11 17:27:55,650 - DEBUG - timed out 
+2023-05-11 17:27:55,750 - DEBUG - timed out 
+2023-05-11 17:27:55,850 - DEBUG - timed out 
+2023-05-11 17:27:55,951 - DEBUG - timed out 
+2023-05-11 17:27:56,051 - DEBUG - timed out 
+2023-05-11 17:27:56,152 - DEBUG - timed out 
+2023-05-11 17:27:56,252 - DEBUG - timed out 
+2023-05-11 17:27:56,352 - DEBUG - timed out 
+2023-05-11 17:27:56,453 - DEBUG - timed out 
+2023-05-11 17:27:56,553 - DEBUG - timed out 
+2023-05-11 17:27:56,654 - DEBUG - timed out 
+2023-05-11 17:27:56,754 - DEBUG - timed out 
+2023-05-11 17:27:56,854 - DEBUG - timed out 
+2023-05-11 17:27:56,955 - DEBUG - timed out 
+2023-05-11 17:27:57,055 - DEBUG - timed out 
+2023-05-11 17:27:57,156 - DEBUG - timed out 
+2023-05-11 17:27:57,256 - DEBUG - timed out 
+2023-05-11 17:27:57,357 - DEBUG - timed out 
+2023-05-11 17:27:57,457 - DEBUG - timed out 
+2023-05-11 17:27:57,558 - DEBUG - timed out 
+2023-05-11 17:27:57,658 - DEBUG - timed out 
+2023-05-11 17:27:57,658 - DEBUG - получено сообщение от клиента aaewf4 
+2023-05-11 17:27:57,658 - DEBUG - Была вызвана функция client_msg_receive из функции args.p). 
+2023-05-11 17:27:57,659 - INFO - принято сообщение: aaewf4 
+2023-05-11 17:27:57,759 - DEBUG - timed out 
+2023-05-11 17:27:57,859 - DEBUG - timed out 
+2023-05-11 17:27:57,960 - DEBUG - timed out 
+2023-05-11 17:27:58,060 - DEBUG - timed out 
+2023-05-11 17:27:58,161 - DEBUG - timed out 
+2023-05-11 17:27:58,261 - DEBUG - timed out 
+2023-05-11 17:27:58,361 - DEBUG - timed out 
+2023-05-11 17:27:58,462 - DEBUG - timed out 
+2023-05-11 17:27:58,562 - DEBUG - timed out 
+2023-05-11 17:27:58,663 - DEBUG - timed out 
+2023-05-11 17:27:58,763 - DEBUG - timed out 
+2023-05-11 17:27:58,864 - DEBUG - timed out 
+2023-05-11 17:27:58,964 - DEBUG - timed out 
+2023-05-11 17:27:58,964 - DEBUG - получено сообщение от клиента 32rwesd 
+2023-05-11 17:27:58,964 - DEBUG - Была вызвана функция client_msg_receive из функции args.p). 
+2023-05-11 17:27:58,965 - INFO - принято сообщение: 32rwesd 
+2023-05-11 17:27:59,065 - DEBUG - timed out 
+2023-05-11 17:27:59,165 - DEBUG - timed out 
+2023-05-11 17:27:59,266 - DEBUG - timed out 
+2023-05-11 17:27:59,366 - DEBUG - timed out 
+2023-05-11 17:27:59,466 - DEBUG - timed out 
+2023-05-11 17:27:59,567 - DEBUG - timed out 
+2023-05-11 17:27:59,667 - DEBUG - timed out 
+2023-05-11 17:27:59,768 - DEBUG - timed out 
+2023-05-11 17:27:59,868 - DEBUG - timed out 
+2023-05-11 17:27:59,968 - DEBUG - timed out 
+2023-05-11 17:28:00,069 - DEBUG - timed out 
+2023-05-11 17:28:00,069 - DEBUG - получено сообщение от клиента 32r 
+2023-05-11 17:28:00,069 - DEBUG - Была вызвана функция client_msg_receive из функции args.p). 
+2023-05-11 17:28:00,069 - INFO - принято сообщение: 32r 
+2023-05-11 17:28:00,170 - DEBUG - timed out 
+2023-05-11 17:28:00,270 - DEBUG - timed out 
+2023-05-11 17:28:00,370 - DEBUG - timed out 
+2023-05-11 17:28:00,471 - DEBUG - timed out 
+2023-05-11 17:28:00,571 - DEBUG - timed out 
+2023-05-11 17:28:00,671 - DEBUG - timed out 
+2023-05-11 17:28:00,772 - DEBUG - timed out 
+2023-05-11 17:28:00,872 - DEBUG - timed out 
+2023-05-11 17:28:00,973 - DEBUG - timed out 
+2023-05-11 17:28:01,073 - DEBUG - timed out 
+2023-05-11 17:28:01,173 - DEBUG - timed out 
+2023-05-11 17:28:01,274 - DEBUG - timed out 
+2023-05-11 17:28:01,374 - DEBUG - timed out 
+2023-05-11 17:28:01,474 - DEBUG - timed out 
+2023-05-11 17:28:01,575 - DEBUG - timed out 
+2023-05-11 17:28:01,575 - DEBUG - получено сообщение от клиента q 
+2023-05-11 17:28:01,575 - DEBUG - Была вызвана функция client_msg_receive из функции args.p). 
+2023-05-11 17:28:01,575 - INFO - принято сообщение: q 
