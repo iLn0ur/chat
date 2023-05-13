@@ -137,12 +137,22 @@ if __name__ == '__main__':
     args = get_params()
 
     client = set_connect(args.addr, args.p)
+    status = input("send or receive?(s, r)")
+    if status == 's':
+        while True:
+            msg = input('Ваше сообщение: ')
+            if msg == 'q':
+                client.send(msg.encode('utf-8'))
+                client.close()
+                break
+            client.send(msg.encode('utf-8'))
+            logger.info(f'сообщение: {msg}')
 
-    client.send(form_precense())
+    else:
+        while True:
+            data = client.recv(1024).decode('utf-8')
+            print(f'Ответ сервера: {data}')
+            # if data == 'q':
+            #     client.close()
+            #     break
 
-    tm = client.recv(1024)
-    client.close()
-    tm_str = tm.decode('utf-8')
-    tm_json = json.loads(tm_str)
-
-    logger.info(f'Ответ сервера: {tm_json["response"]}')
